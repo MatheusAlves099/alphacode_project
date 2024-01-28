@@ -1,0 +1,15 @@
+{
+    "name": "matheus-reis/alphacode",
+    "autoload": {
+        "psr-4": {
+            "MatheusReis\\Alphacode\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Matheus Reis",
+            "email": "mts02501@gmail.com"
+        }
+    ],
+    "require": {}
+}

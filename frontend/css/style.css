@@ -1,0 +1,18 @@
+:root{
+    --primary-color: #078ED0;
+}
+
+body{
+    min-height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+}
+
+
+
+
+
+

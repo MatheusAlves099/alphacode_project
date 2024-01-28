@@ -1,0 +1,23 @@
+header {
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    grid-area: header;
+    height: 17vh;
+    width: 100%;
+}
+
+.header-foto {
+    height: 13vh;
+}
+
+.header-title{
+    font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+    header{
+        width: 100%;
+    }
+
+}
