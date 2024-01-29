@@ -1,19 +1,19 @@
 <?php return array(
     'root' => array(
-        'name' => 'cauhs/back-end-alphacode',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'name' => 'administrator/alphacode-backend',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '0b6a9d5fc61f84a8db3c776e75408b19943b5180',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
-        'cauhs/back-end-alphacode' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+        'administrator/alphacode-backend' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '0b6a9d5fc61f84a8db3c776e75408b19943b5180',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

@@ -20,13 +20,13 @@ class ComposerStaticInit7810d0e62c95ce543d23347f84f1408d
             'Psr\\Http\\Message\\' => 17,
             'Psr\\Container\\' => 14,
         ),
-        'M' => 
-        array (
-            'MatheusReis\\Alphacode\\' => 22,
-        ),
         'F' => 
         array (
             'FastRoute\\' => 10,
+        ),
+        'A' => 
+        array (
+            'Administrator\\Backend\\' => 22,
         ),
     );
 
@@ -43,13 +43,13 @@ class ComposerStaticInit7810d0e62c95ce543d23347f84f1408d
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
         ),
-        'MatheusReis\\Alphacode\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
-        ),
         'FastRoute\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/fast-route/src',
+        ),
+        'Administrator\\Backend\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
     );
 

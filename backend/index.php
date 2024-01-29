@@ -14,7 +14,7 @@ header('Content-Type: application/json');
 
 require_once('./vendor/autoload.php');
 require_once('./src/controller/controllerUsuarios.php');
-include("./src/model/conexao.php");
+include('./src/controller/config.php');
 
 $config = ['settings' => ['displayErrorDetails' => true]];
 $app = new \Slim\App($config);
@@ -168,6 +168,7 @@ $app->delete('/usuarios/{id}', function ($request, $response, $args) {
     }
 });
 
+ob_clean();
 $app->run()
 
 ?>

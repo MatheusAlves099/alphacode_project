@@ -12,7 +12,6 @@ require_once('./src/model/conexao.php');
 //Função para listar todos os usuários
 function selectAllUsers()
 {
-
     $conexao = conexaoBancoDeDados();
 
     $sql = "select * from tbl_usuario order by id desc";
@@ -52,7 +51,7 @@ function selectUserByID($id)
 {
     $conexao = conexaoBancoDeDados();
 
-    $sql = "select * from tbl_usuarios where id =" . $id;
+    $sql = "select * from tbl_usuario where id =" . $id;
 
     $result = mysqli_query($conexao, $sql);
 
